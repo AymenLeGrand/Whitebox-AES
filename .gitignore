@@ -1,0 +1,32 @@
+# Binaries
+aes
+aes_whitener
+aes_encrypt
+wb_aes
+whitener
+
+# Generated lookup table headers
+tables.h
+whitened.h
+
+# Object files & archives
+*.o
+*.a
+*.so
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test & attack logs/artifacts
+traces.txt
+*.csv
+*.log
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
